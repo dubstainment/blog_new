@@ -1,6 +1,6 @@
 @import 'normalize.css';
 @import url("welcome.css");
-@import url("post_project.css");
+@import url("post_projects.css");
 
 * {
    box-sizing: border-box;
