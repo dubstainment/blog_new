@@ -1,6 +1,7 @@
 @import 'normalize.css';
 @import url("welcome.css");
 @import url("post_projects.css");
+@import url("pygments.css");
 
 * {
    box-sizing: border-box;
