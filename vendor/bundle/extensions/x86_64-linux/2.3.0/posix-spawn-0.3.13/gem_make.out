@@ -1,0 +1,23 @@
+current directory: /home/shubh_spcl/blog/vendor/bundle/gems/posix-spawn-0.3.13/ext
+/usr/share/rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20181003-14331-121n3dj.rb extconf.rb
+Ignoring puma-3.12.0 because its extensions are not built.  Try: gem pristine puma --version 3.12.0
+Ignoring redcarpet-3.2.3 because its extensions are not built.  Try: gem pristine redcarpet --version 3.2.3
+Ignoring sqlite3-1.3.13 because its extensions are not built.  Try: gem pristine sqlite3 --version 1.3.13
+Ignoring yajl-ruby-1.2.3 because its extensions are not built.  Try: gem pristine yajl-ruby --version 1.2.3
+creating Makefile
+
+current directory: /home/shubh_spcl/blog/vendor/bundle/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" clean
+
+current directory: /home/shubh_spcl/blog/vendor/bundle/gems/posix-spawn-0.3.13/ext
+make "DESTDIR="
+compiling posix-spawn.c
+posix-spawn.c: In function ‘rb_posixspawn_pspawn’:
+posix-spawn.c:349:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  long argc = RARRAY_LEN(argv);
+  ^
+linking shared-object posix_spawn_ext.so
+
+current directory: /home/shubh_spcl/blog/vendor/bundle/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" install
+/usr/bin/install -m 0755 posix_spawn_ext.so ./.gem.20181003-14331-n3i6xq
